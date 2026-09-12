@@ -44,9 +44,8 @@ dist/
 !assets/**/template.ply
 !assets/**/points.npz
 
-# README demonstration previews.
-!/assets/preview_pcl.png
-!/assets/preview_dep.png
+# Project teaser used in the README.
+!/assets/ernet_teaser.png
 
 # Release and upstream license texts.
 !/LICENSE

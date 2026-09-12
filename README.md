@@ -24,16 +24,7 @@ a sequence of point clouds. This repository
 provides inference code, two bear examples, and visualization of the input
 template, input points, predicted anchors, and predicted mesh.
 
-**PCL demo: template → input points → predicted anchors → predicted mesh**
-
-![ERNet PCL bear demonstration](assets/preview_pcl.png)
-
-<details>
-<summary>DEP demo using camera-visible depth points</summary>
-
-![ERNet DEP bear demonstration](assets/preview_dep.png)
-
-</details>
+![ERNet registration results on sparse and partial point sequences](assets/ernet_teaser.png)
 
 ## Release checklist
 
