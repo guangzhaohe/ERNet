@@ -12,9 +12,15 @@
 
 Zhejiang University
 
-[Paper](https://arxiv.org/abs/2510.15800) · [Project page](https://www.guangzhaohe.com/ernet/) · [Citation](#citation)
-
-[Model weights](#1-download-the-model-weights) · [Setup](#2-set-up-the-environment) · [Run inference](#3-run-inference) · [Release checklist](#release-checklist)
+<a href="https://arxiv.org/pdf/2510.15800"><img src="https://img.shields.io/badge/Paper-ERNet-blue" alt="Paper PDF"></a>
+<a href="https://arxiv.org/abs/2510.15800"><img src="https://img.shields.io/badge/arXiv-2510.15800-b31b1b" alt="arXiv"></a>
+<a href="https://www.guangzhaohe.com/ernet/"><img src="https://img.shields.io/badge/Project_Page-green" alt="Project Page"></a>
+<a href="#1-download-the-model-weights"><img src="https://img.shields.io/badge/Model_Weights-orange" alt="Model Weights"></a>
+<br>
+<a href="#2-set-up-the-environment"><img src="https://img.shields.io/badge/Setup-blue" alt="Setup"></a>
+<a href="#3-run-inference"><img src="https://img.shields.io/badge/Inference_Demo-purple" alt="Inference Demo"></a>
+<a href="#citation"><img src="https://img.shields.io/badge/Citation-gray" alt="Citation"></a>
+<a href="LICENSE"><img src="https://img.shields.io/badge/License-CC_BY--NC_4.0-lightgrey" alt="License: CC BY-NC 4.0"></a>
 
 </div>
 
