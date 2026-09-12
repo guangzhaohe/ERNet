@@ -197,3 +197,19 @@ If you use ERNet in your research, please cite our paper:
   year      = {2025}
 }
 ```
+
+## License
+
+Copyright (c) 2025–2026 ERNet authors.
+
+ERNet's original code, documentation, and the two released checkpoints
+(`train_w_skinning_647500.pth` and `train_w_skinning_dep_542200.pth`) are licensed
+under **Creative Commons Attribution-NonCommercial 4.0 International
+(CC BY-NC 4.0)**. You may share and adapt these materials for noncommercial
+purposes with appropriate attribution, a license link, and an indication of
+changes. See [LICENSE](LICENSE) for the full terms.
+
+This is a noncommercial research code release. Third-party code and the
+DeformingThings4D bear assets remain subject to their respective upstream
+terms; this license does not replace those terms. See
+[THIRD_PARTY.md](THIRD_PARTY.md) for attribution and scope.

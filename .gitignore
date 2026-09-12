@@ -47,3 +47,7 @@ dist/
 # README demonstration previews.
 !/assets/preview_pcl.png
 !/assets/preview_dep.png
+
+# Release and upstream license texts.
+!/LICENSE
+!/licenses/
