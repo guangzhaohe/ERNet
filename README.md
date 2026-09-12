@@ -1,13 +1,26 @@
 <div align="center">
 
-# ERNet
-### Template mesh tracking from point-cloud sequences
+# ERNet: Efficient Non-Rigid Registration Network for Point Sequences
+
+**ICCV 2025**
+
+[Guangzhao He](https://guangzhaohe.com/),
+[Yuxi Xiao](https://henry123-boy.github.io/),
+[Zhen Xu](https://zhenx.me/),
+[Xiaowei Zhou](https://www.xzhou.me/),
+[Sida Peng](https://pengsida.net/)
+
+Zhejiang University
+
+[Paper](https://arxiv.org/abs/2510.15800) · [Project page](https://www.guangzhaohe.com/ernet/) · [Citation](#citation)
 
 [Model weights](#1-download-the-model-weights) · [Setup](#2-set-up-the-environment) · [Run inference](#3-run-inference) · [Release checklist](#release-checklist)
 
 </div>
 
-ERNet tracks a template mesh through a sequence of point clouds. This repository
+Official inference implementation of **ERNet: Efficient Non-Rigid Registration
+Network for Point Sequences (ICCV 2025)**. ERNet tracks a template mesh through
+a sequence of point clouds. This repository
 provides inference code, two bear examples, and visualization of the input
 template, input points, predicted anchors, and predicted mesh.
 
@@ -171,3 +184,16 @@ for source references and retained attributions.
 For installation or inference problems, please open a
 [GitHub issue](https://github.com/guangzhaohe/ERNet/issues) with the command,
 error traceback, GPU model, and CUDA/PyTorch versions.
+
+## Citation
+
+If you use ERNet in your research, please cite our paper:
+
+```bibtex
+@inproceedings{he2025ernet,
+  title     = {ERNet: Efficient Non-Rigid Registration Network for Point Sequences},
+  author    = {He, Guangzhao and Xiao, Yuxi and Xu, Zhen and Zhou, Xiaowei and Peng, Sida},
+  booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
+  year      = {2025}
+}
+```
