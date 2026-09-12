@@ -1,0 +1,49 @@
+# Only the inference project and the explicitly included demos belong in Git.
+/*
+!/.gitignore
+!/README.md
+!/THIRD_PARTY.md
+!/LEGAL.md
+!/main.py
+!/environment.yml
+!/requirements.txt
+!/setup.sh
+!/lib/
+!/assets/
+
+# Environments, caches, recovery copies and generated artifacts.
+.conda/
+.cache/
+.setup/
+.archive/
+.history/
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.ruff_cache/
+.vscode/
+.idea/
+.DS_Store
+*.log
+*.pth
+*.pt
+*.ckpt
+*.npy
+*.npz
+*.ply
+*.anime
+*.mp4
+*.png
+*.jpg
+
+# These small, self-contained input assets are intentional exceptions.
+!assets/**/template.ply
+!assets/**/points.npz
+
+# README demonstration previews.
+!/assets/preview_pcl.png
+!/assets/preview_dep.png

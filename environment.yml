@@ -1,0 +1,8 @@
+# Base environment; bash setup.sh installs requirements.txt and configures CUDA.
+name: scenetracker
+channels:
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - setuptools=75.8.0

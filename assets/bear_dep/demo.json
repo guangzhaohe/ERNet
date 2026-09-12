@@ -1,0 +1,13 @@
+{
+  "mode": "dep",
+  "source": "bear3EP_Agression.anime",
+  "template": "template.ply",
+  "points": "points.npz",
+  "frames": 101,
+  "points_per_frame": 2048,
+  "template_vertices": 16062,
+  "template_faces": 31124,
+  "coordinate_system": "model-normalized; already centered per frame and scaled with padding 0.075",
+  "sampling": "fixed-view rendered depth, back-projection and FPS",
+  "preprocessing": "Prepared from the previous bear run. Per-frame centering and shared scale were computed from the complete source animation, as in the original DT4D preprocessing. No ground-truth sequence or .anime file is needed at inference time."
+}
